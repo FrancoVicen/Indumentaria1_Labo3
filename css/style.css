@@ -216,20 +216,6 @@ p{
   transform: scale(1.2, 1.3);
 }
 
-.title-lib{
-  opacity: 0.7;
-  overflow: hidden;
-  font-size: 15px;
-  margin-top: 10px;
-}
-  /* Estilos de pag. secundaria */
-.img-portada{
-  margin-top: 20px;
-  margin-left: 30px;
-}
-.descrip-lib{
-  margin-left: 40px;
-}
  /* Estilos footer */
 .footer{
   background:#000;
@@ -319,9 +305,6 @@ p{
     border-radius: 4.5px;
     box-shadow: 0 1.5px 3px #0000001a;
     padding: 9px;
-    /* max-width: 150px; */
-    /* justify-content: center; */
-    /* align-items: center; */
   }
   .contenedor-lib{
     height: fit-content;
@@ -331,16 +314,9 @@ p{
   }
   .img-lib{
     height: 100%;
-    /* max-height: 200px; */
     object-fit: cover;
     border-radius: 2.5px;
     transition: transform 0.6s;
-  }
-  .title-lib{
-    opacity: 0.7;
-    overflow: hidden;
-    font-size: 13.5px;
-    margin-top: 9px;
   }
 }
   @media (max-width:655px){
@@ -354,12 +330,6 @@ p{
     box-shadow: 0 1.5px 3px #0000001a;
     padding: 8px;
   }
-  .title-lib{
-    opacity: 0.7;
-    overflow: hidden;
-    font-size: 12px;
-    margin-top: 8px;
-  }
 }
 @media (max-width:585px){
   .contenedor2 {
@@ -371,12 +341,6 @@ p{
     border-radius: 3.5px;
     box-shadow: 0 1.5px 2px #0000001a;
     padding: 7px;
-  }
-  .title-lib{
-    opacity: 0.7;
-    overflow: hidden;
-    font-size: 10.5px;
-    margin-top: 7px;
   }
 }
 @media (max-width:520px){
@@ -390,12 +354,6 @@ p{
     box-shadow: 0 1.2px 2px #0000001a;
     padding: 6px;
   }
-  .title-lib{
-    opacity: 0.7;
-    overflow: hidden;
-    font-size: 9px;
-    margin-top: 6px;
-  }
 }
 @media (max-width:450px){
   .contenedor2 {
@@ -408,10 +366,9 @@ p{
     box-shadow: 0 1.2px 2px #0000001a;
     padding: 5px;
   }
-  .title-lib{
-    opacity: 0.7;
+  .p-info{
     overflow: hidden;
-    font-size: 7.5px;
+    font-size: 12px;
     margin-top: 5px;
   }
 }
@@ -420,7 +377,6 @@ p{
   height: fit-content;
   width: 280px;
   border: 5px solid black;
-  /* scale: 1.05; */
   overflow: hidden;
   border-radius: 10px 10px 10px 10px;
   }
@@ -443,7 +399,6 @@ p{
     height: fit-content;
     width: 280px;
     border: 2px solid black;
-    /* padding: 20px; */
     overflow: hidden;
     align-items: center;
     border-radius: 10px 10px 10px 10px;
@@ -468,6 +423,11 @@ p{
     border-radius: 2.10px;
     box-shadow: 0 1px 1.9px #0000001a;
     padding: 4px;
+  }
+  .p-info{
+    overflow: hidden;
+    font-size: 10px;
+    margin-top: 5px;
   }
 }
 @media (max-width:315px){
